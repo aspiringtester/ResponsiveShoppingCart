@@ -67,7 +67,7 @@ function renderProdcuts() {
                   <div class="item-container">
                   <button type="button" class="btn btn-info" onclick="addToCart(${product.id})">+</button>
 
-                  <button type="button" class="btn btn-info" href="#" data-toggle="modal" data-target="#exampleModalLong">View</button>
+                  <button type="button" class="btn btn-info" href="#" data-toggle="modal" data-target="#exampleModalLong"><i class='fas fa-cart-arrow-down'></i></button>
                       <div class="item-img">
                           <img src="${product.imgSrc}" class="img-fluid" alt="${product.name}">
                       </div>
